@@ -110,7 +110,7 @@ hr {
     font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
-    border-color: ;
+    /* border-color:  */
     border-style: solid;
     border-width: 2;
     padding: 10px 20px 10px 20px;
@@ -143,4 +143,75 @@ a{
 
 a:hover{
     color: #EAF6F6;
+}
+
+@media (max-width : 1180px) and (min-width : 750px){
+    .x {
+        position: absolute;
+        
+        top: 200px;
+    }
+    .mountain {
+        position: absolute;
+        height: 60%;
+        left: 155px;
+    }
+}
+@media (max-width : 749px) and (min-width : 610px)
+{
+    .mountain{
+        position: absolute;
+        height: 45%;
+        left: 90px;
+    }
+    .x {
+        position:static;
+        /* right:130px;
+        font-size: 20px;
+        /* bottom: 25px; */
+        font-size: 20px;
+        
+        
+    }
+    .xyz {
+        font-size: 52px;
+    }
+    .top-cloud{
+        position: static;
+    }
+    .bottom-container{
+        padding-right: 40px;
+    }
+    .contact-me {
+        padding-right: 50px;
+    }
+    .profile {
+        padding-right: 45px;
+    }
+    .skills {
+        padding-right: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .xyz{
+        font-size: 50px;
+    }
+    .x{
+        position: static;
+        font-size: 20px;
+    }
+    .mountain {
+        position: absolute;
+        height: 40%;
+        left: 100px;
+    }
+    .top-class {
+        height: 400px;
+    }
+    .bottom-cloud {
+        position: relative;
+        right: 30px;
+    }
+
 }
